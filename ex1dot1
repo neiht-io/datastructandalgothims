@@ -1,0 +1,22 @@
+#include<stdio.h>
+#include<conio.h>
+
+
+// Hàm nhập tử và mẫu của phân số
+void nhapphanso( int tu, int mau) {
+	printf_s("Nhập tử:");
+	scanf_s("%d", &tu);
+	
+	do {
+		printf_s("Nhập mẫu:");
+		scanf_s("%d", &mau);
+
+	} while (mau <= 0);
+}
+
+//Hàm xuất phân số
+
+void xuatphanso(int tu, int mau) {
+	printf_s("Phân số của bạn là: %d/%d", tu, mau);
+
+}
