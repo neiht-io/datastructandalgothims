@@ -1,11 +1,6 @@
 #include<stdio.h>
 #include<conio.h>
 
-struct phanso
-{
-	int tu;
-	int mau;
-};
 // Hàm nhập tử và mẫu của phân số
 void nhapphanso( int tu, int mau) {
 	printf_s("Nhập tử:");
