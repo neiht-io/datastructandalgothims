@@ -16,6 +16,11 @@ void nhapphanso( int tu, int mau) {
 //Hàm xuất phân số
 
 void xuatphanso(int tu, int mau) {
-	printf_s("Phân số của bạn là: %d/%d", tu, mau);
+	if ((((tu > 0) && (mau < 0))) || (((tu > 0) && (mau < 0)))) {
+		printf_s("Phân số của bạn là: - %d/%d", tu, mau);
+	}
 
+	else {
+		printf_s("Phân số của bạn là: %d/%d", tu, mau);
+	}
 }
